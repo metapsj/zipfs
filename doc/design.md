@@ -6,15 +6,23 @@ description
 
 description
 
+- open
+- close
+
 ### operations
+
+aka commands
+
+- list
+- tree
 
 - add
 - remove
-- rename
+
 - move
 - copy
-- list
-- tree
+
+- rename
 
 ## folder
 
@@ -23,4 +31,9 @@ description
 ## file
 
 description
+
+## notes
+
+- input stream
+- output stream
 
