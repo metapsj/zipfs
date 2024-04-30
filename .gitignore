@@ -1,4 +1,3 @@
 .direnv/*
 !.direnv/.keep
-
-node_modules/
+scripts/
