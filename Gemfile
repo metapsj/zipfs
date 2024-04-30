@@ -1,38 +1,10 @@
 source 'https://rubygems.org'
 
-ruby "3.2.0"
-
-gem 'cuba'
-# gem 'rack-session'
-gem 'rack-protection'
-
-gem 'sqlite3'
-gem 'sequel'
-
-gem 'tilt'
-gem 'erubi'
-# gem 'hypertext'
-
-gem 'shield'
-
-gem 'digest-murmurhash'
-# gem 'rqrcode'
+gem 'rubyzip'
 
 group :development, :test do
-  gem 'webrick'
-  gem 'rackup'
-
-  # gem 'guard'
-  # gem 'guard-livereload'
-  # gem 'rack-livereload'
-
-  gem 'fixture_dependencies'
-
-  # gem 'cutest'
-  gem 'rack-test'
-  gem 'capybara'
-
-  gem 'debug', '~> 1.8', '>= 1.8'
+  gem 'cutest'
+  gem 'debug', '~> 1.9', '>= 1.9'
 end
 
 group :cli do
